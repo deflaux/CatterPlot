@@ -17,7 +17,6 @@
 # limitations under the License.
 #
 
-.onLoad <- function(libname = find.package("CatterPlot"), pkgname = "CatterPlot") {
-	require(png)
-	packageStartupMessage("\nWelcome to CatterPlot.\n")
+.onAttach <- function(libname = find.package("CatterPlots"), pkgname = "CatterPlots") {
+	packageStartupMessage("\nWelcome to CatterPlots.\n")
 }
